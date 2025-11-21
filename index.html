@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Huisartspraktijk Elting-Wartan - Emmaheerdt gezondheidscentrum, Liefkensstraat 2, 9671 GA Winschoten">
+    <title>Huisartspraktijk Elting-Wartan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar for Quick Contact -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-contact">
+                    <a href="tel:0597412261" class="top-link">
+                        <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        0597-412261
+                    </a>
+                    <span class="separator">|</span>
+                    <span>08:00 - 17:00</span>
+                </div>
+                <a href="#spoedgevallen" class="spoed-link">
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                        <path d="M12 8v4M12 16h.01" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    Spoedgevallen
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <img src="i283163839610783909.jpg" alt="Logo Elting-Wartan" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Elting-Wartan</h1>
+                        <span class="subtitle">Huisartspraktijk</span>
+                    </div>
+                </a>
+                
+                <button class="mobile-menu-toggle" aria-label="Menu openen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#praktijk" class="dropdown-toggle">Praktijk <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#spreekuren">Spreekuren</a></li>
+                            <li><a href="#medewerkers">Medewerkers</a></li>
+                            <li><a href="#samenwerking">Samenwerking</a></li>
+                            <li><a href="#diagnostiek">Diagnostiek</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#patient" class="dropdown-toggle">Patiënt <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#inschrijven">Inschrijven</a></li>
+                            <li><a href="#medisch-dossier">Medisch Dossier</a></li>
+                            <li><a href="#recepten">Recepten</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#informatie" class="dropdown-toggle">Informatie <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#waarnemingen">Waarnemingen</a></li>
+                            <li><a href="#griep-vaccinatie">Griep Vaccinatie 2025</a></li>
+                            <li><a href="#eigen-risico">Eigen Risico</a></li>
+                            <li><a href="#nhg-accreditatie">NHG Accreditatie</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#contact" class="dropdown-toggle">Contact <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#klachten">Klachten</a></li>
+                            <li><a href="#links">Links</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#spoedgevallen" class="spoed-nav-link">
+                        <svg class="icon-nav" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                            <path d="M12 8v4M12 16h.01" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Spoed
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-label">Welkom bij</span>
+                <h2 class="hero-title">Huisartspraktijk Elting-Wartan</h2>
+                <p class="hero-subtitle">Uw gezondheid, onze zorg in Huisartspraktijk Elting-Wartan.</p>
+                <div class="hero-buttons">
+                    <a href="#medisch-dossier" class="btn btn-primary">Medisch Dossier & Uitslagen</a>
+                    <a href="#inschrijven" class="btn btn-outline">Nieuwe Patiënt?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Quick Info Cards -->
+        <section class="info-cards">
+            <div class="container">
+                <div class="card-grid">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Adres</h3>
+                        <p>Liefkensstraat 2<br>9671 GA Winschoten</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h3>Openingstijden</h3>
+                        <p>Maandag t/m Vrijdag<br>08:00 tot 17:00</p>
+                    </div>
+                    <div class="info-card highlighted">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <h3>Bereikbaarheid</h3>
+                        <p class="phone-number">0597-412261</p>
+                        <p class="small-text">Keuzemenu:<br>1. Spoed | 2. Recepten | 3. Assistente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Praktijk Info & Foto -->
+        <section id="praktijkinformatie" class="section-padding">
+            <div class="container">
+                <div class="two-column-grid">
+                    <div class="column-content">
+                        <span class="section-label">Onze Praktijk</span>
+                        <h2>Persoonlijke zorg in Winschoten</h2>
+                        <p>U vindt hier alle informatie over onze praktijk: wie wij zijn, wat we doen en hoe u ons kunt bereiken. Wij zijn gevestigd in het moderne Emmaheerdt gezondheidscentrum.</p>
+                        
+                        <div class="info-block">
+                            <h3>
+                                <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                                Huisarts in opleiding (AIOS)
+                            </h3>
+                            <p>Onze praktijk is een opleidingspraktijk. Dit betekent dat er een huisarts in opleiding (AIOS) of co-assistent werkzaam kan zijn onder supervisie van uw huisarts.</p>
+                            <p class="notice"><em>Momenteel is er geen AIOS werkzaam in de praktijk, maar wel een co-assistent.</em></p>
+                        </div>
+                    </div>
+                    <div class="column-image">
+                        <div class="image-wrapper">
+                            <img src="i283163839640569298.jpg" alt="Interieur praktijk" class="rounded-image shadow-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inschrijven / Patiëntenstop -->
+        <section id="inschrijven" class="section-padding bg-light">
+            <div class="container">
+                <div class="content-box warning-border">
+                    <div class="box-header">
+                        <h2>Inschrijven & Patiëntenstop</h2>
+                    </div>
+                    <div class="box-body">
+                        <p class="lead-text"><strong>Let op:</strong> Onze praktijk hanteert momenteel een patiëntenstop vanwege drukte.</p>
+                        <p>Wij nemen <strong>alleen</strong> nog patiënten aan die:</p>
+                        <ul class="check-list">
+                            <li>Recent in ons zorggebied zijn komen wonen</li>
+                            <li>EN nog niet zijn ingeschreven bij een andere huisarts in de regio</li>
+                        </ul>
+                        
+                        <div class="action-steps">
+                            <h3>Hoe schrijft u zich in?</h3>
+                            <ol>
+                                <li>Download het inschrijfformulier digitaal (niet met pen invullen).</li>
+                                <li>Mail het ingevulde formulier + kopie ID + kopie zorgpas naar <a href="mailto:a.n.elting-wartan@ezorg.nl">a.n.elting-wartan@ezorg.nl</a>.</li>
+                                <li>Vraag uw vorige huisarts uw dossier digitaal op te sturen.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section id="locatie" class="section-padding">
+            <div class="container">
+                <div class="text-center mb-2">
+                    <h2>Onze Locatie</h2>
+                    <p>Emmaheerdt gezondheidscentrum</p>
+                </div>
+                <div class="map-wrapper">
+                    <img src="Nieuw project.jpg" alt="Kaart locatie Winschoten" class="map-image full-width">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Elting-Wartan</h4>
+                    <p>Uw gezondheid, onze zorg in het Huisartspraktijk Elting-Wartan.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contactgegevens</h4>
+                    <p>Liefkensstraat 2<br>9671 GA Winschoten</p>
+                    <p><a href="mailto:a.n.elting-wartan@ezorg.nl" class="footer-link">a.n.elting-wartan@ezorg.nl</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Snel naar</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#medisch-dossier">Medisch Dossier</a></li>
+                        <li><a href="#inschrijven">Inschrijven</a></li>
+                        <li><a href="#spoedgevallen">Spoed</a></li>
+                        <li><a href="#privacy">Privacy Statement</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Huisartspraktijk Elting-Wartan. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
